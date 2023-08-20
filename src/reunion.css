@@ -1,0 +1,19 @@
+.input-style {
+    border-radius: 5px;
+    height: 35px;
+    width: 1000px;
+    text-align: center ;
+    /* Add any other styles you want */
+  }
+  
+  .read-only {
+    background-color: #f0f0f0; /* Gray color for read-only input */
+  }
+  
+  .label-left {
+    margin-left: 25px;
+    font-size:large;
+    /* Autres styles */
+  }
+
+  

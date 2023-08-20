@@ -1,4 +1,4 @@
-.App {
+.App{
   text-align: center;
 }
 
@@ -53,6 +53,48 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.input-style {
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 25px;
+  width: 200px;
+  /* Add any other styles you want */
+}
+
+.read-only {
+  background-color: #f0f0f0; /* Gray color for read-only input */
+}
+
+.label-left {
+  text-align: left;
+  margin-left: 25px;
+  /* Add any other styling you want for left-aligned labels */
+}
+
+.custom-button {
+  background-color: #007bff; /* Couleur de fond */
+  color: #ffffff; /* Couleur du texte */
+  border: none; /* Pas de bordure */
+  padding: 10px 20px; /* Espacement intérieur */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur pointer au survol */
+  transition: background-color 0.3s, color 0.3s; /* Transition en douceur */
+}
+
+.custom-button:hover {
+  background-color: #0056b3; /* Changement de couleur au survol */
+}
+
+.background-image {
+  background-image: url('/public/img.jpg'); /* Chemin vers votre image dans le répertoire public */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
